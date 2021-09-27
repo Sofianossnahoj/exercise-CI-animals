@@ -6,8 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Install modules
-      working-directory: ./exercise-animals
         run: npm install
       - name: Run tests
-      working-directory: ./exercise-animals
+
         run: npm run test:unit
